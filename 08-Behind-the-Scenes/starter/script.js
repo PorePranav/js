@@ -9,6 +9,7 @@ function calcAge(birthYear){
 
         if(birthYear >= 1981 && birthYear <= 1996){
             var millenial = true;
+            const firstName = "Steven"
             console.log(`Oh, and you are a millenial ${firstName}`); 
 
             function add(a, b){
@@ -25,4 +26,4 @@ function calcAge(birthYear){
 }
 
 const firstName = "Pranav";
-calcAge(2003);
+calcAge(1991);
